@@ -20,9 +20,9 @@ $validator->field('Message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('reservations@kivulinibeachvillaandcottages.com');
+$pp->getReCaptcha()->initSecretKey('6LfZwMgqAAAAAD8NcBQa3oak0D17ikZO4Krc_KGK');
 
 
-$pp->sendEmailTo('opoti63@gmail.com'); // ← Your email here
+$pp->sendEmailTo('reservations@kivulinibeachvillaandcottages.com'); // ← Your email here
 
 echo $pp->process($_POST);
